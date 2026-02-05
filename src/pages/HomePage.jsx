@@ -1,5 +1,5 @@
 import React from "react";
-import HeroParallax from "../components/heroParallex";
+import HeroParallax from "../components/HeroParallex";
 
 
 const HomePage = () => {
