@@ -1,0 +1,38 @@
+/* 1️⃣ Google font */
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+/* 2️⃣ Tailwind v4 single import (IMPORTANT) */
+@import "tailwindcss";
+
+
+
+
+
+/* 3️⃣ Global font (THIS WILL APPLY) */
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+
+
+
+/* 4️⃣ Custom utilities */
+@layer utilities {
+  @keyframes marquee-left-right {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  .marquee-track {
+    @apply flex gap-12;
+    animation: marquee-left-right 18s linear infinite;
+    width: max-content;
+  }
+}
