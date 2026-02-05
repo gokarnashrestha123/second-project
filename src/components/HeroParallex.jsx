@@ -4,7 +4,7 @@ import ParallaxImage from "./ParallaxImage";
 import ImageRow from "./ImageRow";
 import ThirdSection from "./ThirdSection";
 import FourthSection from "./FourthSection";
-import FifthSection from "./fifthSection";
+import FifthSection from "./FifthSection";
 import SixSection from "./SixSection";
 import SevenSection from "./SevenSection";
 import Footer from "./Footer";
