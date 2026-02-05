@@ -1,9 +1,9 @@
 import React from "react";
-import image1 from "../assets/sectionone/vector.png";
-import image2 from "../assets/sectionone/vector1.png";
+import image1 from "../assets/sectionone/Vector.png";
+import image2 from "../assets/sectionone/Vector1.png";
 import image3 from "../assets/sectionone/vector2.png";
 import image4 from "../assets/sectionone/vector3.png";
-import image5 from "../assets/sectionone/vector4.png";
+import image5 from "../assets/sectionone/Vector4.png";
 import image6 from "../assets/sectionone/vector3.png";
 
 const images = [image1, image2, image3, image4, image5, image6];
